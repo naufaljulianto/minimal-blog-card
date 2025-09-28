@@ -1,0 +1,42 @@
+body {
+  margin-top: 164px;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  box-sizing: border-box;
+  width: 368px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  padding: 16px;
+}
+
+.tag {
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  width: 64px;
+  border-radius: 20px;
+  margin: 16px 0;
+  padding: 6px 6px;
+  background-color: lightblue;
+  color: blue;
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: 700;
+  margin: 6px 0;
+}
+
+.description {
+  margin: 0;
+  padding-bottom: 20px;
+  border-bottom: 1px solid rgba(212, 212, 212, 0.5);
+}
+
+.author {
+  margin-top: 20px;
+}
